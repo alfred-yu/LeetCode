@@ -1,3 +1,5 @@
+// 为避免递归过程中重复计算，这里采用map缓存已计算出的数值。
+
 class Solution {
 private:
     map<int, int> caches;
